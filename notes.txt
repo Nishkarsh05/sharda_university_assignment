@@ -1,1 +1,7 @@
-This is my assignment.
+for your regular assignment submission below commands are important:
+
+1. git status
+2. git add .
+3. git status
+4. git commit -m "msg"
+5. git push origion main
