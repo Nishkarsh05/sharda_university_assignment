@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Appointment Booking System</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Hospital Appointment Booking">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+
+<header>
+    <h1>SUA Hospital</h1>
+</header>
+
+<main>
+
+    <section>
+        <h2>Patient Registration Form</h2>
+
+        <form>
+            <fieldset>
+                <legend>Patient Details</legend>
+
+                Name:
+                <input type="text"><br><br>
+
+                Email:
+                <input type="email"><br><br>
+
+                Phone:
+                <input type="tel"><br><br>
+
+                Gender:
+                <input type="radio" name="g"> Male
+                <input type="radio" name="g"> Female
+                <br><br>
+
+                Address:<br>
+                <textarea rows="4" cols="20"></textarea>
+            </fieldset>
+        </form>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Book Appointment</h2>
+
+        <form>
+            <fieldset>
+                <legend>Appointment Details</legend>
+
+                Department:
+                <select>
+                    <option>Cardiology</option>
+                    <option>Neurology</option>
+                    <option>Orthopedics</option>
+                </select>
+                <br><br>
+
+                Appointment Date:
+                <input type="date">
+                <br><br>
+
+                Reason:<br>
+                <textarea rows="4" cols="20"></textarea>
+                <br><br>
+
+                <input type="submit" value="Book Appointment">
+            </fieldset>
+        </form>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Hospital Introduction Video</h2>
+
+        <video width="300" controls>
+            <source src="./suahospitalintro.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Hospital Location</h2>
+
+        <iframe
+            src="https://www.google.com/maps?q=Sharda+University+Agra&output=embed"
+            width="300"
+            height="200">
+        </iframe>
+    </section>
+
+</main>
+
+<footer>
+    <p>SUA Hospital</p>
+</footer>
+
+</body>
+</html>
